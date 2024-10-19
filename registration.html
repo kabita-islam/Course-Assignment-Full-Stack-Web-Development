@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+    <title>Document</title>
+    <style>
+        form{
+            margin: 200px;
+            margin-left: 20px;
+            
+            margin-bottom: 20px;
+            size: "3";
+        }
+        /* body{
+            background-color: aqua;
+        } */
+        h2{
+            text-align: center;
+        }
+        .row{
+            display: flex;
+        }
+       
+        .uname{
+            margin-left: 150px;
+        }
+        .phnNumber,.confirmPassword{
+            margin-left: 150px;
+        }
+        #secondRow,#thirdRow,#fourthRow{
+            margin-top: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Registration</h2>
+        <div class="row" id="firstRow">
+            <div class="name">
+                <label for="fullName">Enter Your  Name
+                    <input type="text" placeholder="Enter your name" >
+                </label>
+            </div>
+            <div class="uname">
+                <label for="userName">Enter Your User Name
+                    <input type="text" placeholder="Enter User name" >
+                </label>
+            </div>
+        </div>
+        <div class="row" id="secondRow">
+            <div class="email">
+                <label for="email">Enter Your Email
+                    <input type="email" placeholder="Enter your email">
+                </label>
+            </div>
+            <div class="phnNumber">
+                <label for="phnNumber">Enter Your Phone Number
+                    <input type="number" placeholder="Enter Phone Number" >
+                </label>
+            </div>
+        </div>
+        
+        <div class="row" id="thirdRow">
+            <div class="password">
+                <label for="password">Enter Your Email
+                    <input type="password" placeholder="Enter your password">
+                </label>
+            </div>
+            <div class="confirmPassword">
+                <label for="confirmPassword">Enter Your Phone Number
+                    <input type="password" placeholder="Confirm Your Password" >
+                </label>
+            </div>
+        </div>
+
+        <div class="row" id="fourthRow">
+            <div class="gender">
+                <label for="gender">Gender <br>
+                    <input type="radio" name="Male">
+                </label>
+
+                <!-- <input type="radio" id="html" name="fav_language" value="HTML"> -->
+                <!-- <label for="html">HTML</label><br> -->
+            </div>
+    
+        </div>
+        
+
+
+
+
+    </form>
+</body>
+</html>
