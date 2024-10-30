@@ -1,0 +1,13 @@
+Extensions
+
+php devsense ($)
+coderunner (.run lekha)
+
+
+PSR-dekhte hobe
+
+browser e run korte chaile
+php -S localhost:8080 ./index.php
+[here index.php is the file name]
+
+

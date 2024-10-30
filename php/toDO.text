@@ -1,0 +1,6 @@
+1.variable in function
+-local scope
+-global scope
+-super global scope
+
+2.recursive function
