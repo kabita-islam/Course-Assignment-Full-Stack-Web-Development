@@ -1,0 +1,67 @@
+1.Why OOP?
+-Modularity --> application er feature part by part thake.
+ ek sathe thake na.
+ suppose 1 crore tk ek sathe keu rakhbe na.
+ etake 1 lakh/2 lakh er bundle kore kore rakhte hobe.
+
+-reusability -->
+
+-encapsulation--> same type er code guloke ek e jaigar moddhe rakha.
+jemon bank er debit,credit somporkojukto.ek e type er somporkojukto code guloke ek sathe rakha.
+
+-polymorphism -->  bohurupita
+ek e function ekbar add er kaj korlo.arekbar subtraction er kaj korlo.
+
+-collaboration --> collaboration with team. team er sobai jate code bujhe
+seta mathai rekhe code kora.
+
+
+
+2.constructor--->special type of method jeta auto executed hoi.
+
+3.Inheritance -->
+
+--extends keyword used
+
+
+To DO List:
+1.static variable ---> direct access from class.no need of object.
+
+2.static method ---> direct access from class.no need of object.
+3.Inheritance 
+4.Abstract classes
+-->you want to kill the father class .jate father class er sob kisu son class ekai 
+acces korte pare.father class na pare.sei jonno father class er age abstract keyword use kori9.
+
+5.Method Overriding
+-->when child changes his parents variable or function .
+but if parents don't want that h=chlid doesn't chnage anything then it's needed to 
+use 'final' keyword .
+
+6.Final keyword 
+--> but if parents don't want that h=chlid doesn't chnage anything then it's needed to 
+use 'final' keyword .
+
+7.Inheritance static properties
+-->father's static power will automatically goes to his son.
+
+8.Inheritance constructor
+-->1st scenario
+if father has constructor but child has no constructor.
+
+-->2nd scenario
+both has constructor-->son er constructor call hobe.
+father er ta ar hobe na.father er object create koreli father er ta call hobe.
+
+9.Parent keyword
+-->if son request from father's method.parent is only applicable for method,not for variable.
+-->son also can request for father's constructor.
+
+
+10.Method Overloading
+-->same method but several parameter in sevaral times.
+-->same method but several name in several times.
+
+[need to learn again.concept doesn't clear]
+11.polymorphism
+12.Interface
